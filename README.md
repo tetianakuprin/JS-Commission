@@ -125,12 +125,21 @@ inputData.json
 ### Results
 
 Commission  0.06 EUR from amount  200 0.06 EUR
+
 Commission  0.90 EUR from amount  300 0.90 EUR
+
 Commission  87.00 EUR from amount  30000 87.00 EUR
+
 Commission  3.00 EUR from amount  1000 3.00 EUR
+
 Commission  0.30 EUR from amount  100 0.30 EUR
+
 Commission  0.30 EUR from amount  100 0.30 EUR
+
 Commission  5.00 EUR from amount  1000000 5.00 EUR
+
 Commission  0.00 EUR from amount  1000 0.00 EUR
+
 Commission  0.00 EUR from amount  300 0.00 EUR
+
 
