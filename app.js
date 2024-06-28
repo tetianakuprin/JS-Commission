@@ -1,6 +1,8 @@
 let api = require("./api");
 let fs = require("fs");
-const fileContent = fs.readFileSync("inputData.json");
+const { argv } = require('node:process');
+
+const fileContent = fs.readFileSync(argv[2]);
 const placesData = JSON.parse(fileContent);
 const userTypeJuridical = "juridical";
 const userTypeNatural = "natural";
@@ -80,7 +82,6 @@ async function countCommission() {
       casIn.max.currency,
       "from amount ",
       el.amound,
-      el.commission,
       casIn.max.currency
     );
   });

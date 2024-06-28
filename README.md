@@ -114,9 +114,13 @@ Before submitting your task, please review the requirements once again – **all
 You can upload the source (i.e. to GitHub) publicly.
 
 
-### Run
+### Run with JSON data from file inputData.json 
 
-npm start
+npm start 
+
+### Run with JSON data from file (pass file name) 
+
+node app.js inputData.json 
 
 ### Input data
 
@@ -124,22 +128,20 @@ inputData.json
 
 ### Results
 
-Commission  0.06 EUR from amount  200 0.06 EUR
+Commission  0.06 EUR from amount  200 EUR
 
-Commission  0.90 EUR from amount  300 0.90 EUR
+Commission  0.90 EUR from amount  300 EUR
 
-Commission  87.00 EUR from amount  30000 87.00 EUR
+Commission  87.00 EUR from amount  30000 EUR
 
-Commission  3.00 EUR from amount  1000 3.00 EUR
+Commission  3.00 EUR from amount  1000 EUR
 
-Commission  0.30 EUR from amount  100 0.30 EUR
+Commission  0.30 EUR from amount  100 EUR
 
-Commission  0.30 EUR from amount  100 0.30 EUR
+Commission  0.30 EUR from amount  100 EUR
 
-Commission  5.00 EUR from amount  1000000 5.00 EUR
+Commission  5.00 EUR from amount  1000000 EUR
 
-Commission  0.00 EUR from amount  1000 0.00 EUR
+Commission  0.00 EUR from amount  1000 EUR
 
-Commission  0.00 EUR from amount  300 0.00 EUR
-
-
+Commission  0.00 EUR from amount  300 EUR
